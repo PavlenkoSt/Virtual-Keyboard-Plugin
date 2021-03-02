@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Keyboard/keyboard.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Virtual Keyboard</title>
+</head>
+
+<body>
+    <h1>Virtual Keyboard Plugin</h1>
+    <textarea class="use-keyboard-input"
+        placeholder="Нажмите сюда для активации клавиатуры и попытайтесь что-то написать."></textarea>
+    <div class="info">
+        <a href="#info" title="Инструкция" class="info__icon">i</a>
+        <div id="info" class="info__body">
+            <a href="#" class="info__close">x</a>
+            <div class="info__text">
+                <p>Для использования виртуальной клавиатуры необходимо подключить js и css-файлы из папки Keyboard к
+                    своему проекту.</p>
+                <p>Далее добавьте всем необходимым полям служебный класс "use-keyboard-input".</p>
+                <p>Теперь при фокусе на данное поле клавиатура будет вызвана автоматически. :)</p>
+            </div>
+        </div>
+    </div>
+    <script src="Keyboard/keyboard.js"></script>
+</body>
+
+</html>
